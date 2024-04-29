@@ -1,0 +1,153 @@
+
+[
+    {
+        "data": {
+          "formTitle": "Form Details",
+          "formId": "1",
+          "panels": [
+            {
+              "name": "Panel1",
+              "id": "1",
+              "attributes": [
+                {
+                  "id": 1,
+                  "lovEoId": "80b17428-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "Title",
+                  "value": "",
+                  "isActive": true,
+                  "dataType": "select",
+                  "isEditable": true,
+                  "mandatory": false,
+                  "isdefault": true,
+                  "optionList": "Mr.,Ms.,Mrs.",
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null,
+                  "placeholder": ""
+                },
+                {
+                  "id": 2,
+                  "lovEoId": "80b172c1-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "First Name",
+                  "value": null,
+                  "isActive": true,
+                  "dataType": "string",
+                  "isEditable": true,
+                  "mandatory": true,
+                  "isdefault": false,
+                  "optionList": null,
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null
+                },
+                {
+                  "id": 3,
+                  "lovEoId": "80b174c6-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "Middle Name",
+                  "value": "",
+                  "isActive": true,
+                  "dataType": "string",
+                  "isEditable": true,
+                  "mandatory": true,
+                  "isdefault": false,
+                  "optionList": null,
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null
+                },
+                {
+                  "id": 4,
+                  "lovEoId": "80b174c6-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "Last Name",
+                  "value": "",
+                  "isActive": true,
+                  "dataType": "string",
+                  "isEditable": true,
+                  "mandatory": true,
+                  "isdefault": false,
+                  "optionList": null,
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null
+                },
+                {
+                  "id": 5,
+                  "lovEoId": "80b175e6-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "Organization",
+                  "value": "",
+                  "isActive": true,
+                  "dataType": "select",
+                  "isEditable": true,
+                  "mandatory": false,
+                  "isdefault": false,
+                  "optionList": " ",
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null
+                },
+                {
+                  "id": 6,
+                  "lovEoId": "80b1766c-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "Sales Region",
+                  "value": null,
+                  "isActive": true,
+                  "dataType": "multiselect",
+                  "isEditable": true,
+                  "mandatory": true,
+                  "isdefault": false,
+                  "optionList": null,
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null
+                }
+              ]
+            },
+            {
+              "name": "Panel2",
+              "id": "2",
+              "attributes": [
+                {
+                  "id": 7,
+                  "lovEoId": "80b17702-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "Role Start Date",
+                  "value": "",
+                  "isActive": true,
+                  "dataType": "date",
+                  "isEditable": false,
+                  "mandatory": false,
+                  "isdefault": false,
+                  "optionList": null,
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null
+                },
+                {
+                  "id": 8,
+                  "lovEoId": "80b17798-d8b3-11ee-b910-59f1ab87a192",
+                  "lovGroupName": "PERSON_DETAILS",
+                  "label": "Role End Date",
+                  "value": "",
+                  "isActive": true,
+                  "dataType": "date",
+                  "isEditable": false,
+                  "mandatory": false,
+                  "isdefault": false,
+                  "optionList": null,
+                  "validationJson": null,
+                  "lovType": "LOV_PARAMETER",
+                  "associatedAttribute": null
+                }
+              ]
+            }
+          ]
+        }
+      }
+      
+]
